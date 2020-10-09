@@ -7,10 +7,40 @@
   </head>
 
   <body>
-		<h1 id="title">This works!</h1>
-    <!-- <script sync src="src/func.js"></script> -->
-    <!-- <script sync src="src/dom.js"></script> -->
-    <!-- <script sync src="src/day1_mouseEvent.js"></script> -->
-    <script sync src="src/day2_windowResize.js"></script>
+    <!-- <div class="js-clock">
+      <h1 class="js-title">00:00</h1>
+    </div>
+
+    <form class="js-form form">
+      <input type="text" placeholder="What is your name?" />
+    </form>
+    <h4 class="js-greetings greetings"></h4> -->
+
+    <h1>Time Until Christmas</h1>
+    <h3 class="js-xmas"></h1>
+
+      
+    <!-- 
+      2020/10/09
+      async in <script>:  
+      1. html 파싱되면서 <script> 만나면 script 다운로드
+      2. script 다운로드 완료와 동시에 html 파싱이 멈추면서 script 실행
+      3. 나머지 html 파싱
+      ※ async 에서는 DOM 조작 X & 앞뒤에 실행될 스크립트와 의존성이 없는 곳에 사용
+
+      defer in <script>:
+      1. html 파싱되면서 <script> 만나면 script 다운로드
+      2. html 파싱이 끝나면 </html>을 만났을 때  script 실행
+      ※ DOM을 조작하는 내용을 포함하기. (일부 브라우저에서 지원 X)
+
+      ※ https://caniuse.com/?search=defer
+     -->
+    <!-- <script defer src="src/func.js"></script> -->
+    <!-- <script defer src="src/dom.js"></script> -->
+    <!-- <script defer src="src/day1_mouseEvent.js"></script> -->
+    <!-- <script defer src="src/day2_windowResize.js"></script> -->
+    <!-- <script defer src="src/day3_clock_part_one.js"></script> -->
+    <!-- <script defer src="src/day3_gretting.js"></script> -->
+    <script defer src="src/day3_CHALLENGE.js"></script>
   </body>
 </html>
