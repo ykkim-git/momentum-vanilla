@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Random Number Game</h1>
+	<h3>Generate a number between 0 and <span id="range_span"></span></h3>
+		
+	<input id="range" type="range" min="0" max="200" step="15">
+	
+	<h3>
+		Guess the number: 
+		<input type="number" id="guessNumber" />
+		<button id="startButton" type="button" onclick="gameStart()">Play!</button>
+	</h3>
+	
+	<h4>
+		You chose: 
+		<span id="chose-number"></span>,
+		the machine chose:
+		<span id="machine-number"></span> ==>
+		<span id="result"></span>
+	</h4>
+	
+
+
+	<script defer src="./src/day6_RANDOM.js"></script>
+</body>
+</html>
