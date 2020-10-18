@@ -1,0 +1,41 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background-color: #323232;
+}
+
+input {
+	width: 304px;
+	height: 45px;
+	background-color: #323232;
+	border: unset;
+	color: #fff;
+	font-size: 20px;
+	text-align: right;
+}
+
+textarea:focus, input:focus{
+	outline: none;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	color: #fff;
+	font-size: 20px;
+	border: none;
+	padding: unset;
+	background-color: #666363;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.btn:hover{
+	color: #323232;
+}
+
+button:focus { 
+	outline: 0; 
+}
+
+.light-gray { background-color: lightgray; }
+.orange { background-color: orange; }
